@@ -4,3 +4,6 @@ age,heart_rate,blood_pressure,temperature,gender,chief_complaint,medical_history
 30,80,110,36.5,Female,Fever,Hypertension,Low
 60,100,140,37.3,Male,Chest Pain,Heart Disease,Critical
 22,78,115,36.6,Female,Headache,None,Low
+
+git commit -m "Add patient dataset CSV file"
+git commit -m "Implement data preprocessing pipeline with scaling and encoding"
