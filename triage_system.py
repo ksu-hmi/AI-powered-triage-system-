@@ -239,3 +239,9 @@ if __name__ == "__main__":
     # Launch the GUI
     triage_ui = TriageUI(triage_system)
     triage_ui.run()
+
+git commit -m "Add TriageSystem class for managing real-time patient data and queue"
+git commit -m "Implement patient queue sorting and waiting time updates"
+git commit -m "Add Random Forest model training and evaluation script"
+git commit -m "Add input validation and error handling in patient data form"
+git commit -m "Integrate encryption for storing sensitive patient data securely"
