@@ -1,0 +1,41 @@
+Update determine_triage_level with new logic
+def determine_triage_level(patient_data):
+    # Include logic for new conditions, thresholds, or added patient data fields
+    # e.g., Adding oxygen saturation (SpO2) or revised priority symptoms list
+
+def notify_high_priority(patient_id, patient_data):
+    if patient_data['triage_level'] == 1:  # Critical level
+        print(f"ALERT: High-priority patient {patient_id} needs immediate attention!")
+
+def predict_outcomes(model, patient_data):
+    outcomes = model.predict(patient_data)
+    return outcomes
+
+import requests
+
+def fetch_patient_data_from_api(api_url):
+    response = requests.get(api_url)
+    if response.status_code == 200:
+        return response.json()
+    return None
+
+AI-Powered Triage System: Overview
+
+Purpose
+The AI-Powered Triage System enhances urgent care efficiency by automatically prioritizing patients based on severity using machine learning.
+
+Key Features
+- Automated triage scoring
+- Real-time patient queue management
+- Data visualization of triage levels
+- Secure data handling with encryption
+
+Business Value
+- Reduces wait times for critical patients
+- Optimizes resource allocation in healthcare settings
+- Scalable for integration with hospital systems
+
+Technical Stack
+- Backend: Python, Flask
+- Machine Learning: scikit-learn, RandomForestClassifier
+- Frontend: Tkinter GUI
